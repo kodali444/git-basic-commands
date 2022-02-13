@@ -1,0 +1,57 @@
+#To see files and folders related changes
+Ex:  $ git status
+
+#To add file 
+Ex:  $ git add abx.html 
+
+#To add multiple files 
+Ex:  $ git add abx.html def.html
+
+#To commit the changes with messsage
+Ex:  $ git commit -m "first file"
+
+#To check configuration
+Ex:  $ git config -l
+
+#To configure user credentials
+Ex:  $ git config user.name "Your Name"
+Ex:  $ git config user.email "your@name.com"
+
+#To see current branch
+Ex:  $ git branch
+
+#To create new branch
+Ex:  $ git checkout -b qa
+
+#To switch existing branch
+Ex:  $ git checkout  qa
+
+#To see remote branches
+Ex:  $ git branch -a
+
+#To add origin url for pushing your code to remote Repository
+Ex:  $ git remote add origin https://github.com/raghunagalla/HTML-1.git
+
+#To push new branch to Origin(i.e remore repository)
+$git push -u origin newBranch
+
+#To push existing branch to Origin(i.e remote repository)
+$git push origin newBranch
+
+#To pull changes from the same branches(current branch is dev)
+$git pull origin dev   (or) git pull
+
+#To pull changes from the Other branch(current branch is dev)
+$git pull origin qa     
+
+#To clone with 'Repository Name'
+git clone https://github.com/raghunagalla/HTML-1.git
+
+#To clone with userSpecific folder name
+git clone https://github.com/raghunagalla/HTML-1.git YOUR_CHOICE
+
+#To clone particular branch
+git clone -b REQUIRED_BRANCH_NAME https://github.com/raghunagalla/HTML-1.git 
+
+#To clone particular branch with userSpecific folder_name
+git clone -b dev https://github.com/raghunagalla/HTML-1.git YOUR_CHOICE
